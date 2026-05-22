@@ -1,0 +1,50 @@
+
+/* src/NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #333;
+    color: rgb(153, 42, 42);
+  }
+  
+ 
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 0px;
+    margin-right: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  .logo{
+    background-image:url("components/photos/logo.jpg");
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-repeat: no-repeat;
+
+  }
+  button{
+    padding: 1px;
+ 
+    
+  }
